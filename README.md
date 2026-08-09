@@ -8,7 +8,7 @@ The game exposes these commands through Lua Test Scripts, a HTTP/TCP socket list
 These commands are present in the base game. 
 
 [App Commands](https://github.com/0xC0000054/sc4-game-command-documentation/tree/main/commands/Maxis/AppCommands.md) - these are available in both the region and city views.    
-[City Commands](https://github.com/0xC0000054/sc4-game-command-documentation/tree/main/commands/Maxis/Cityommands.md) - these are available in the city view.    
+[City Commands](https://github.com/0xC0000054/sc4-game-command-documentation/tree/main/commands/Maxis/CityCommands.md) - these are available in the city view.    
 [Region Commands](https://github.com/0xC0000054/sc4-game-command-documentation/tree/main/commands/Maxis/RegionCommands.md) - these are available in the region view.    
 
 ## 3rd-party Commands
