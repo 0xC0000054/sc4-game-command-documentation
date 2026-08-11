@@ -24,7 +24,12 @@ These scripts are executed -LuaScript command line argument. My [Lua Test Script
 ## HTTP/TCP Socket
 
 The HTTP/TCP socket listener must first be enabled using the `-NetCommandGenerator:enabled` command line argument when starting the game.
+
+Note that the game can accept connections from other machines on the network, so you may want to block incoming connections for the SimCity 4 executable in your OS firewall.
+
 Once enabled the game will listen on port 50020 for connections.
+
+My [Network Game Command repository](https://github.com/0xC0000054/sc4-network-game-command) implements an example client that communicates with the game.
 
 ## In-Game Cheat Box
 
