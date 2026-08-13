@@ -39,6 +39,18 @@ Parameters:
 `<unknown Boolean>` - it is unclear what this value was for. It doesn't appear to visibly alter the command's behavior in the retail game.
 
 ### CreateGZLog
+
+Creates an empty text file at the specified path. Serves no purpose in retail builds as the *GZLog* command is a no-op.
+
+Parameters:
+
+`<log file path>` `<log categories>` `<append Booleam>`
+
+
+`<log file path>` - a string containing the path to the log file.    
+`<log categories>` - a string containing a comma separated list of log categories to include.    
+`<append Boolean>` - a Boolean indicating if the log file should be appended to.    
+
 ### ExecuteCheat
 
 Executes the specified cheat.
@@ -256,6 +268,19 @@ Unimplemented in retail builds.
 Broadcasts a message on the game's internal messaging system.
 
 ### SetDebugLevel
+
+Sets the framework's debug level. Serves no purpose in retail builds as the framework debug code was stripped.
+
+Parameters:
+
+`<level>` - a string specifying the framework's debug level. One of the values listed below:
+
+| Debug Level String | Description |
+|--------------------|-------------|
+| None | No debug logging. |
+| Logging | Logging to file? |
+| Console | External debug window? This is disabled in full screen mode. |
+
 ### SetGZLogLevel
 
 Unimplemented in retail builds.
