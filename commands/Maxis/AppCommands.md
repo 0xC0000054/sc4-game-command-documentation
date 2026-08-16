@@ -451,7 +451,30 @@ Parameters:
 `<parent window id>` - the parent window id number, or 0 for the main window.
 
 ### GZWinCreateWindow
+
+Creates the specified scripted window.
+
+Parameters:
+
+`<window CLSID>` `<parent window id>` `<window instance id>` `[Modal]` `[NoDestroy]`
+
+`<window CLSID>` - the window class id number of the scripted window.    
+`<parent window id>` - the parent window id number, or 0 for the main window.    
+`<window id>` - the instance id number of the scripted window.    
+`[Modal]` - a string that indicates the window should be displayed as a modal dialog.   
+`[NoDestroy]` - a string that indicates the modal dialog should not be destroyed after it is closed.       
+
 ### GZWinDestroyWindow
+
+Destroys the specified scripted window.
+
+Parameters:
+
+`<window id>` `<parent window id>`
+
+`<window id>` - the window id number.    
+`<parent window id>` - the parent window id number, or 0 for the main window.
+
 ### GZWinEnableUserInput
 
 Allows user input to be disabled or enabled.
@@ -517,6 +540,19 @@ The identifier of the button that was clicked.
 ### GZWinMoveCursorToPosition
 ### GZWinMoveCursorToWindow
 ### GZWinMoveWindow
+
+Moves the specified window.
+
+Parameters:
+
+`<window id>` `<parent window id>` `<x>` `<y>`
+
+`<window id>` - the id of the target window.    
+`<parent window id>` - the id of the parent window or 0 for the main game window.    
+`<x>` - the new window x coordinate.
+`<y>` - the new window y coordinate.
+
+
 ### GZWinSelectListboxItem
 ### GZWinSetWindowText
 
