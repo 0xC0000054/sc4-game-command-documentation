@@ -344,6 +344,19 @@ Writes to the game's registry, unimplemented in retail builds.
 ## Tool Commands
 
 ### Demolish
+
+Demolishes the specified area.
+
+Parameters:
+
+`<area rectangle>` `[additional area rectangles]` `[Sim]` `[None]` `[Explode]`
+
+`<area rectangle>` - an area rectangle in the form `x1 y1 x2 y2`.    
+`[additional area rectangles]` - up to 15 additional area rectangles in the form `x1 y1 x2 y2` that will be merged with the main rectangle.   
+`[Sim]` - The demolition privilege level for the simulator, when not present it will be the user privilege level. Possibly unused in SC4.    
+`[None]` - No demolition effect.   
+`[Explode]` - An explosion demolition effect.    
+
 ### GetViewTarget
 
 Gets the camera's position in x, y, and z coordinates.
