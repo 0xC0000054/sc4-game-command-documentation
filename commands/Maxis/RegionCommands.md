@@ -31,13 +31,37 @@ Parameters: `<true/false>` - Show the confirmation dialog.
 Displays a file browser dialog to select the region bitmap.
 
 ### ScrollDown
+
+Scrolls down.
+
 ### ScrollDownStop
+
+Stops the previous *ScrollDown* command.
+
 ### ScrollLeft
+
+Scrolls left.
+
 ### ScrollLeftStop
+
+Stops the previous *ScrollLeft* command.
+
 ### ScrollRight
+
+Scrolls right.
+
 ### ScrollRightStop
+
+Stops the previous *ScrollRight* command.
+
 ### ScrollUp
+
+Scrolls up.
+
 ### ScrollUpStop
+
+Stops the previous *ScrollUp* command.
+
 ### SetExpandedToolTips
 
 Sets a value indicating if the game should use expanded tool tips.
