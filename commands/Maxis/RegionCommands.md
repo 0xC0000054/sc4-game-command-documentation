@@ -12,7 +12,12 @@ Cancels the current UI selection.
 
 Loads the named city.
 
-Parameters: `<city name>` - if empty the game loads the first city it finds. `<city size string>` - one of small, medium, large, or any. `<city established string>` - either empty (unestablished) or full (established).
+Parameters: 
+`<city name>` `<city size string>` `<city established string>`.
+
+`<city name>` - if empty the game loads the first city it finds.    
+`<city size string>` - one of _small_, _medium_, _large_, or _any_.    
+`<city established string>` - either _empty_ (unestablished) or _full_ (established).
 
 ### LoadRegion
 
