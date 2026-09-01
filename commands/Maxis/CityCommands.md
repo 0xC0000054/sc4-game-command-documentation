@@ -178,7 +178,21 @@ Parameters:
 ### RotateLotCCW
 ### RotateLotCW
 ### SaveCity
+
+Saves the city.
+
+Parameters:
+
+`[suppress confirmation dialog]` - an optional Boolean indicating weather to suppress the confirmation dialog that is shown to the user, defaults to false. 
+
 ### SaveCityQuick
+
+Saves the city without updating the region view thumbnails.
+
+Parameters:
+
+`[suppress confirmation dialog]` - an optional Boolean indicating weather to suppress the confirmation dialog that is shown to the user, defaults to false. 
+
 ### ScrollDown
 ### ScrollDownOnce
 ### ScrollDownStop
