@@ -29,6 +29,16 @@ Note that the game can accept connections from other machines on the network, so
 
 Once enabled the game will listen on port 50020 for connections.
 
+Each connection carries one command:
+
+1. Connect to port 50020.
+2. Send the command as ASCII text, with a newline (`\n` or `\r\n`) at the end. For example: `GetAppState\n`.
+3. Read the reply until the game closes the connection. For example, `GetAppState` replies `1 0` in the region view.
+
+The game only answers the first command of a connection. Open a new connection for the next command.
+
+Always send the newline. If the client sends a command without a newline and then closes its sending side of the connection, the game sends no reply and stops answering commands on later connections until it is restarted.
+
 My [Network Game Command repository](https://github.com/0xC0000054/sc4-network-game-command) implements an example client that communicates with the game.
 
 ## In-Game Cheat Box
