@@ -166,10 +166,12 @@ Exits the game.
 
 Parameters:
 
-`<show confirmation dialog>` `<save city>`
+`<skip confirmation dialog>` `<save city>`
 
-`<show confirmation dialog>` - A Boolean indicating weather to show a confirmation dialog to the user.    
+`<skip confirmation dialog>` - A Boolean. `true` exits at once. `false` shows the quit confirmation dialog, and the game keeps running until the player answers it.    
 `<save city>` - A Boolean indicating weather to save the city.
+
+Example: `QuitGame true false` exits without a dialog and without saving the city.
 
 ### RailTool
 ### RoadTool
