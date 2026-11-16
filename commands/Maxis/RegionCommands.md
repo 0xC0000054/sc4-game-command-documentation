@@ -29,7 +29,7 @@ Parameters: `<region name string>`
 
 Quits the game.
 
-Parameters: `<true/false>` - Show the confirmation dialog.
+Parameters: `<true/false>` - Skip the confirmation dialog. `true` quits at once. `false` shows the quit confirmation dialog, and the game keeps running until the player answers it.
 
 ### RegionBitmapLoad
 
